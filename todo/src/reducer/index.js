@@ -3,9 +3,13 @@ import {ADDTODO,REMOVETODO,CHANGETODO} from "../actions"
 const initialState =
 {
     todos: [
-        {id: 0, name: "Get Somethign done", status:false},
-        {id: 1, name: "Get Somethign done", status:false},
-        {id: 2, name: "Get Somethign done", status:true}
+        {id: 0, name: "Hit the gym",            status: false},
+        {id: 1, name: "Pay bills",              status: false},
+        {id: 2, name: "Buy eggs",               status: false},
+        {id: 3, name: "Read a book",            status: false},
+        {id: 4, name: "Organize office",        status: false},
+        {id: 5, name: "Clean the kitchen",      status: false},
+        {id: 6, name: "Cook Dinner",            status: false}
     ]
 }
 
